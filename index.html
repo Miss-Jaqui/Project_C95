@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter</title>
+
+<link href="https://fonts.googleapis.com/css?family=Aboreto&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" type="text/css" href="kitter.css">
+<script src="kwitter.js"></script>
+</head>
+<body>
+
+<center>
+	<h1 class="header">	
+		Sala de Chat Jack's Program	<sup>
+	<img src="m2.png">
+	</sup>
+</h1>
+
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+<br>
+	<img src="logo.png" class="logo">
+		<h3 >¡Haciendo amigos!</h3>
+<br>
+		<h4 >Únete a Jack's Program y se parte de nuestra comunidad</h4>
+		<br>
+		<div class="form-group">
+		  <label >Nombre de usuario:</label>
+		 <input type="text" id="user_name" class="form-control" placeholder="Nombre de usuario">
+		</div>
+<br>
+		<button id="login_button" class="btn btn-primary" onclick="addUser()">Iniciar sesión</button>
+		<br><br>
+	</div>
+</center>
+
+</body>
+</html>
